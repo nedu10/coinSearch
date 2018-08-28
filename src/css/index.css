@@ -1,0 +1,44 @@
+html,body{
+    height: 100%;
+    font: Trebuchet !important;
+}
+#home-section{
+    /* background-image: url(../../images/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    min-height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url(../../images/img-1.jpg)center/cover no-repeat;
+  }
+#home-nav{
+    padding: 0;
+    background-color: transparent; 
+    border-bottom:1px solid lightcoral; 
+    color: lightcoral;
+}
+#nav-header,#nav-recent,#nav-result,#navbar-brand{
+      color: lightcoral;
+  }
+#nav-header:hover,#nav-recent:hover,#nav-result:hover{
+    background-color: lightcoral;
+    color: #383837;
+}
+#search-btn-outline-primary{
+    background-color: transparent;
+    border-color: lightcoral;
+    color: lightcoral;
+}
+#search-btn-outline-primary:hover{
+    background-color: lightcoral;
+    color: white;
+}
+#search-btn-outline-primary:focus,#search-form-control:focus{
+    box-shadow: 0 0 0 0.2rem rgba(240, 128, 128, 0.5);
+}
+#search-form-control{
+    border-color: #f79393;
+}
+.active>.nav-link{
+    background-color: lightcoral;
+    color: #383837 !important;
+}
